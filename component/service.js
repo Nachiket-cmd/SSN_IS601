@@ -23,7 +23,7 @@ export default function Main({ data }){
             name: data?.testimonialSectionContent?.reviewer1Name,
             path:"/profile_1.webp",
             alt:"profile_1",
-            message:data?.testimonialSectionContent?.reviewer1Name,
+            message:data?.testimonialSectionContent?.reviewer1Comment,
         },
         {
             id:"profile_2",
